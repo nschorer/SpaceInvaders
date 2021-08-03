@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="All of these have an inherited Update() method">
+    <Position X="6.519" Y="1.603" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="NullObject does nothing">
+    <Position X="6.739" Y="3.813" Height="0.451" Width="1.7" />
+  </Comment>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAQAAAAAAAhIFAAAgEICAAAABqAAAABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NullGameObject" Collapsed="true">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="~NullGameObject" Hidden="true" />
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="NullGameObject" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\NullGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.EnemyCategory" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Enemies\EnemyCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipCategory" Collapsed="true">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ShipCategory.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ship\ShipCategory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ship\ShipCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

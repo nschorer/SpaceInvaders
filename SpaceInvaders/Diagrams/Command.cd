@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="These commands are created all throughout the application">
+    <Position X="7.292" Y="1.896" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="SpaceInvaders.Command">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GridMovement">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="GridMovement" Hidden="true" />
+      <Field Name="pGrid" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Enemies\EnemyGrid\GridMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NextLevelEvent">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="NextLevelEvent" Hidden="true" />
+      <Field Name="pGrid" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Event\NextLevelEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

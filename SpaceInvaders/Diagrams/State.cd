@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Ship">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="GetMissileState" Hidden="true" />
+      <Method Name="MoveLeft" Hidden="true" />
+      <Method Name="MoveRight" Hidden="true" />
+      <Field Name="pShipMan" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SetMissileState" Hidden="true" />
+      <Method Name="SetMovementState" Hidden="true" />
+      <Method Name="Ship" Hidden="true" />
+      <Method Name="ShipDestroyed" Hidden="true" />
+      <Field Name="shipSpeed" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="VisitBomb" Hidden="true" />
+      <Method Name="VisitCrab" Hidden="true" />
+      <Method Name="VisitOctopus" Hidden="true" />
+      <Method Name="VisitSquid" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IIQGACAQgAAAAAAABAABDAAAAAAAAIAMQAAAAAAEEAA=</HashCode>
+      <FileName>Ship\Ship.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="missileState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ShipState">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="MoveLeft" Hidden="true" />
+      <Method Name="MoveRight" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\ShipState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMissileReady">
+    <Position X="6.5" Y="3.25" Width="1.75" />
+    <Members>
+      <Method Name="MoveLeft" Hidden="true" />
+      <Method Name="MoveRight" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\ShipStateMissileReady.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMissileFlying">
+    <Position X="8.5" Y="3.25" Width="1.75" />
+    <Members>
+      <Method Name="MoveLeft" Hidden="true" />
+      <Method Name="MoveRight" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\ShipStateMissleFlying.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMissileNone">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="MoveLeft" Hidden="true" />
+      <Method Name="MoveRight" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\ShipStateMissileNone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,10 @@
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe.config
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\bin\Debug\AzulCoreCLRDebug.dll
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\bin\Debug\irrKlang.NET4.dll
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.csprojAssemblyReference.cache
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.CoreCompileInputs.cache
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.CopyComplete
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.exe
+D:\Documents\DePaul\se456\keenan2020winter_se456\student\nschorer\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.pdb

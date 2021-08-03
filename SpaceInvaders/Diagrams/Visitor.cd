@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Client">
+    <Position X="8.434" Y="3.178" Height="0.333" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Visitor/Visitable">
+    <Position X="9.374" Y="0.595" Height="0.344" Width="1.2" />
+  </Comment>
+  <Comment CommentText="">
+    <Position X="13.383" Y="0.5" Height="3.781" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Concrete Visitor/Visitable">
+    <Position X="11.052" Y="2.885" Height="0.396" Width="1.7" />
+  </Comment>
+  <Class Name="SpaceInvaders.Missile">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="~Missile" Hidden="true" />
+      <Field Name="bHit" Hidden="true" />
+      <Field Name="enable" Hidden="true" />
+      <Method Name="Hit" Hidden="true" />
+      <Method Name="Missile" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SetActive" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="VisitColumn" Hidden="true" />
+      <Method Name="VisitCrab" Hidden="true" />
+      <Method Name="VisitGroup" Hidden="true" />
+      <Method Name="VisitOctopus" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAACAAIAQAABAIAAIBBAAAAAAAAAAEAAAAAIAAAAA=</HashCode>
+      <FileName>GameObject\Missile\Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Squid">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="~Squid" Hidden="true" />
+      <Field Name="delta" Hidden="true" />
+      <Method Name="Squid" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="VisitMissileGroup" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAEAAAAA=</HashCode>
+      <FileName>GameObject\Enemies\Squid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColPair">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="~ColPair" Hidden="true" />
+      <Method Name="Attach" Hidden="true" />
+      <Method Name="ColPair" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Method Name="NotifyListeners" Hidden="true" />
+      <Field Name="poSubject" Hidden="true" />
+      <Method Name="Process" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetCollision" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ColPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\ColPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBABAAgAAggQAAIAEQAAgCAAAQAAABAA=</HashCode>
+      <FileName>Collision\ColPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAQAAAAAAAhIFAAAgEIAAAAABqAAAABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Component" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAIAAAgAAAABAAAAAAAAAAAEAAQAEAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileCategory" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Missile\MissileCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.GameObject" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="2.191" />
+        <Point X="15" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.EnemyCategory" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Enemies\EnemyCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColVisitor">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="VisitBomb" Hidden="true" />
+      <Method Name="VisitBombRoot" Hidden="true" />
+      <Method Name="VisitColumn" Hidden="true" />
+      <Method Name="VisitCrab" Hidden="true" />
+      <Method Name="VisitGroup" Hidden="true" />
+      <Method Name="VisitMissileGroup" Hidden="true" />
+      <Method Name="VisitNullGameObject" Hidden="true" />
+      <Method Name="VisitOctopus" Hidden="true" />
+      <Method Name="VisitShieldBrick" Hidden="true" />
+      <Method Name="VisitShieldColumn" Hidden="true" />
+      <Method Name="VisitShieldGrid" Hidden="true" />
+      <Method Name="VisitShieldRoot" Hidden="true" />
+      <Method Name="VisitShip" Hidden="true" />
+      <Method Name="VisitShipRoot" Hidden="true" />
+      <Method Name="VisitWallGroup" Hidden="true" />
+      <Method Name="VisitWallLeft" Hidden="true" />
+      <Method Name="VisitWallRight" Hidden="true" />
+      <Method Name="VisitWallTop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gIQAACAAIAQARAABDAChAAAADgAAAAAEAiEAAAAAAAA=</HashCode>
+      <FileName>Collision\ColVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

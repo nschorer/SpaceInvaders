@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Requests Shield from ---&gt;">
+    <Position X="7.021" Y="1.75" Height="0.562" Width="1.127" />
+  </Comment>
+  <Comment CommentText="Makes Shield, hiding details from the calling code">
+    <Position X="8.344" Y="2.958" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="&lt;---- New Shield is returned">
+    <Position X="6.865" Y="3.927" Height="0.448" Width="1.2" />
+  </Comment>
+  <Class Name="SpaceInvaders.ShieldFactory">
+    <Position X="8.25" Y="1.5" Width="1.75" />
+    <Members>
+      <Method Name="~ShieldFactory" Hidden="true" />
+      <Field Name="BRICK_HEIGHT" Hidden="true" />
+      <Field Name="BRICK_WIDTH" Hidden="true" />
+      <Method Name="CreateShieldRoot" Hidden="true" />
+      <Field Name="pCollisionSpriteBatch" Hidden="true" />
+      <Field Name="pSpriteBatch" Hidden="true" />
+      <Field Name="pTree" Hidden="true" />
+      <Method Name="SetParent" Hidden="true" />
+      <Method Name="ShieldFactory" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAQAAAAAAAAAgAAAQAAAIAAAEAAEEAAAAEAAAA=</HashCode>
+      <FileName>GameObject\Shield\ShieldFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ScenePlay">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="AttachAnimations" Hidden="true" />
+      <Method Name="ClearWave" Hidden="true" />
+      <Method Name="CreateRootObjects" Hidden="true" />
+      <Method Name="CreateSpriteBatches" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="GameOver" Hidden="true" />
+      <Method Name="GetFourWalls" Hidden="true" />
+      <Method Name="Handle" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="InputK" Hidden="true" />
+      <Method Name="InputLeft" Hidden="true" />
+      <Method Name="InputRight" Hidden="true" />
+      <Method Name="InputSpace" Hidden="true" />
+      <Method Name="PlayerDies" Hidden="true" />
+      <Field Name="poBoxSpriteMan" Hidden="true" />
+      <Field Name="poFontMan" Hidden="true" />
+      <Field Name="poGameObjectMan" Hidden="true" />
+      <Field Name="poProxySpriteMan" Hidden="true" />
+      <Field Name="poShipMan" Hidden="true" />
+      <Field Name="poSpriteBatchMan" Hidden="true" />
+      <Field Name="poTimerMan" Hidden="true" />
+      <Field Name="resetWave" Hidden="true" />
+      <Method Name="ScenePlay" Hidden="true" />
+      <Method Name="SetupBomb" Hidden="true" />
+      <Method Name="SetupColPairs" Hidden="true" />
+      <Method Name="SetupGrid" Hidden="true" />
+      <Method Name="SetupMissile" Hidden="true" />
+      <Method Name="SetupShip" Hidden="true" />
+      <Method Name="SetupUFO" Hidden="true" />
+      <Method Name="SetupUI" Hidden="true" />
+      <Method Name="SetupWalls" Hidden="true" />
+      <Method Name="ShieldStressTest" Hidden="true" />
+      <Method Name="SpawnWave" Hidden="true" />
+      <Method Name="SwitchToOtherPlayer" Hidden="true" />
+      <Method Name="Transition" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AURAgBQAOAAIRwAAAAABIIgAEAJCAQIABBAABgBBAAA=</HashCode>
+      <FileName>Scene\ScenePlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldGrid" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAACAAAAAAAAAADAAhAAAAAAAAAAAEAgAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\ShieldGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

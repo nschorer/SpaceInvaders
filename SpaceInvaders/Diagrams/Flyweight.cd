@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="FontMan asks for a glyph from the manager">
+    <Position X="4.208" Y="1.948" Height="0.688" Width="1.325" />
+  </Comment>
+  <Comment CommentText="GlyphMan creates the Glyph one time and reuses it from then on.">
+    <Position X="6.719" Y="3.812" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="FontMan gets the Glyph, whether it is new or reused">
+    <Position X="3.885" Y="4.344" Height="0.583" Width="1.575" />
+  </Comment>
+  <Class Name="SpaceInvaders.FontMan">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="~FontMan" Hidden="true" />
+      <Method Name="Add" Hidden="true" />
+      <Method Name="AddToSB" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="FontMan" Hidden="true" />
+      <Field Name="pActiveFMan" Hidden="true" />
+      <Field Name="pInstance" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="RemoveFromSB" Hidden="true" />
+      <Method Name="SetActive" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAEAAEAAEAAABhQABAABIAFAAAAACAIAACAA=</HashCode>
+      <FileName>Font\FontMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Glyph" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Glyph.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Font\Glyph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBAACAAAEgAEAAAAEQAAAAAAAABAAAAA=</HashCode>
+      <FileName>Font\Glyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GlyphMan">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~GlyphMan" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="GlyphMan" Hidden="true" />
+      <Field Name="pInstance" Hidden="true" />
+      <Field Name="pRefNode" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAEAAAAAABhQAAAABIAFAAAAACAAgACAA=</HashCode>
+      <FileName>Font\GlyphMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

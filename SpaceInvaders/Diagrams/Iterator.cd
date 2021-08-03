@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Iterator">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="GetChild" Hidden="true" />
+      <Method Name="GetParent" Hidden="true" />
+      <Method Name="GetSibling" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAABCAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Composite\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ForwardIterator">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="ForwardIterator" Hidden="true" />
+      <Method Name="PrivNextStep" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pCurr" Type="SpaceInvaders.Component">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.3" Y="0.12" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pRoot" Type="SpaceInvaders.Component">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.773" Y="0.089" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgIAACAAAAAAAQAAAAIAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\ForwardIterator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCurr" />
+      <Field Name="pRoot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Component" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAIAAAgAAAABAAAAAAAAAAAEAAQAEAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

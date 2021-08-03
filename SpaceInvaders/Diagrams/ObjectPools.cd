@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ImageMan" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAEAAAAAABhAAAAABIAFAAAAACAAAACAA=</HashCode>
+      <FileName>Image\ImageMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="AddCommon" Hidden="true" />
+      <Method Name="baseDump" Hidden="true" />
+      <Method Name="baseFind" Hidden="true" />
+      <Method Name="baseGetActive" Hidden="true" />
+      <Method Name="BaseInitialize" Hidden="true" />
+      <Method Name="baseSetReserve" Hidden="true" />
+      <Method Name="baseSortedAdd" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Manager" Hidden="true" />
+      <Field Name="mDeltaGrow" Hidden="true" />
+      <Field Name="mInitialNumReserved" Hidden="true" />
+      <Field Name="mNumActive" Hidden="true" />
+      <Field Name="mNumReserved" Hidden="true" />
+      <Field Name="mTotalNumNodes" Hidden="true" />
+      <Method Name="privAddSorted" Hidden="true" />
+      <Method Name="privAddToFront" Hidden="true" />
+      <Method Name="privFillReservedPool" Hidden="true" />
+      <Method Name="privPullFromFront" Hidden="true" />
+      <Method Name="privRemoveNode" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAAgMAEAEABUAiCQgAAIgAAQgAIEhAAABAAAAgACAA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAEEAAAAAAAAAIAAAAAAAAAABABBEAg=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image" Collapsed="true">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAChQAAAAAAoAEAAAAEQAAAAAAAQAAABAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
